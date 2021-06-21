@@ -1,1 +1,56 @@
-<p>signup-page works!</p>
+<div class="uk-flex-center" uk-grid>
+    <div class="uk-width-1-3@m">
+        <p class="uk-text-center uk-margin-large-top uk-margin-medium-bottom">
+            <span class="uk-icon" uk-icon="icon: logo-color-dark; ratio: 0.9"></span>
+        </p>
+
+        <div class="uk-card uk-card-primary uk-card-body uk-box-shadow-small">
+            <h3 class="uk-card-title">Faça seu cadastro</h3>
+
+            <div class="uk-margin">
+                <label>Nome completo</label>
+                <input class="uk-input uk-form-large" type="text" placeholder="Nome Completo">
+            </div>
+
+            <div class="uk-margin">
+                <label for="date">Data de nascimento</label>
+                <input class="uk-input uk-form-large" id="date" type="date" data-uk-datepicker="{format:'DD.MM.YYYY'}">
+            </div>
+
+            <div class="uk-margin">
+                <label for="cpf">CPF</label>
+                <input class="uk-input uk-form-large" id="cpf" type="text" placeholder="(Apenas números)">
+            </div>
+
+            <div class="uk-margin">
+                <label for="email">E-mail</label>
+                <input class="uk-input uk-form-large" id="email" type="email" placeholder="exemplo@exemplo.com">
+            </div>
+
+            <div class="uk-margin">
+                <input id="terms" name="terms" type="checkbox" class="uk-checkbox">
+                <label for="terms"> Declaro que li e estou de acordo com os </label>
+                <a href="https://google.com" style="pointer-events: auto; cursor: pointer;" target="_blank">Termos de uso</a>
+              </div>
+
+
+            <div class="uk-margin">
+                <h3 class="uk-card-title">Crie sua senha:</h3>
+                <label for="pass">Senha</label>
+                <br>
+                <sup>A senha deve ter no mínimo 8 digitos</sup>
+                <input class="uk-input uk-form-large" id="pass" type="password" placeholder="Senha" minlength="8"
+                    required>
+            </div>
+
+            <div class="uk-margin uk-text-right">
+                <a href="/login" class="uk-button uk-button-default">Confirmar Cadastro</a>
+            </div>
+        </div>
+
+        <p class="uk-text-center">
+            <a href="/login" class="uk-button uk-button-link">Voltar</a>
+        </p>
+
+    </div>
+</div>
