@@ -9,6 +9,7 @@ import { ResetPasswordPageComponent } from './reset-password-page/reset-password
 import { SignupPageComponent } from './signup-page/signup-page.component';
 import { ConsultPageOnlineComponent } from './consult-page-online/consult-page-online.component';
 import { ConsultPhysicalComponent } from './consult-physical/consult-physical.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ConsultPhysicalComponent } from './consult-physical/consult-physical.co
     SignupPageComponent,
     ConsultPageOnlineComponent,
     ConsultPhysicalComponent,
+    CartPageComponent,
   ],
   imports: [
     BrowserModule,
